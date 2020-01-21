@@ -20,6 +20,7 @@ public class Takesnap {
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(source,new File("/Users/saravmalar/Documents/screenshot.png"));
+		
 
 	}
 
