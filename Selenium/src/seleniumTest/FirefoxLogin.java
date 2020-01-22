@@ -12,7 +12,8 @@ public class FirefoxLogin {
 		System.setProperty("webdriver.gecko.driver", "/Users/saravmalar/SeleniumSoftwares/geckodriver");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
-		driver.close();
+		//driver.close();
+		
 
 	}
 
