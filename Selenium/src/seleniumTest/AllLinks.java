@@ -24,7 +24,7 @@ public class AllLinks {
         
 		for(int i=0;i<count;i++) {
 			
-			WebElement web = driver.findElement(By.tagName("a"));
+			//WebElement web = driver.findElement(By.tagName("a"));
 			//action.moveToElement(web);
 			//sSystem.out.println(web.getText());
 			String linkName = a.get(i).getText();
