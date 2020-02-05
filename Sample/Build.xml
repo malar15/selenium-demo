@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+<project name = "sample" default ="run" basedir=".">
+	<target name="run" depends="compile">  
+	        <java classname = "practise.Sample">  
+	            <classpath path="test"></classpath>  
+	        </java>  
+	    </target>  
+	    <target name="compile">  
+	        <javac includeantruntime="false" srcdir="./src" destdir = "test"></javac>  
+	    </target>  
+</project>
